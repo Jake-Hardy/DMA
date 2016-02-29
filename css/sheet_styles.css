@@ -1,0 +1,123 @@
+input[type=text],
+input[type=number] {
+    border:none;
+    border-color: transparent;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+input[type=submit] {
+    width: 30%;
+    margin: auto 35%;
+}
+
+label {
+    font-weight: bold;
+}
+
+.text-entry {
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+
+.text-entry input,
+.text-entry label {
+    display: block;
+    /*padding: 3px;*/
+}
+
+.text-entry label {
+    /*float: left;*/
+}
+
+.text-entry input {
+    /*float: right;*/
+    width: 90%;
+    margin: 0 auto;
+}
+
+.number-entry {
+    width: 30%;
+    display: inline-block;
+}
+
+.number-entry label {
+    float: left;
+}
+
+.number-entry input {
+    float: right;
+    width: 60%;
+}
+
+.number-entry label,
+.number-entry input {
+    margin: 3px;
+}
+
+.attr {
+    width: 50%;
+    display: inline-block;
+}
+
+.armor-class,
+.initiative,
+.speed {
+
+}
+
+/* ---- Media Queries ---- */
+
+@media (min-width: 768px) {
+    .container {
+        display: inline-block;
+    }
+
+    .content {
+        box-shadow: none;
+        /*border: 1px solid #888;*/
+    }
+
+    [class*="char-"] {
+        float: left;
+
+    }
+
+    .char-name {
+        width: 20%;
+    }
+
+    .char-details {
+        width: 30%;
+
+    }
+
+    .char-attributes {
+        width: 20%;
+        clear: right;
+    }
+
+    .char-status {
+        width: 50%;
+    }
+
+    .attr {
+        width: 100%;
+    }
+
+    .class,
+    .level,
+    .race,
+    .alignment {
+        width: 50%;
+    }
+
+    .ac-initiative-speed div {
+        width: 33.33%;
+    }
+
+    .health div {
+        width: 50%;
+    }
+}
