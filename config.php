@@ -8,7 +8,7 @@
 //define('__ROOT__', docroot(__FILE__));
 set_include_path(__DIR__);
 $debug = true;
-$app_path = "/DMA";
+$app_path = "xation.co/jhardy/DMA";
 
 
 
